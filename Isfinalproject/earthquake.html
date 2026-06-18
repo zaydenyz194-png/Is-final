@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Earthquakes</title>
+
+  <!-- custom stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- nav: on-page anchors + link back to professional site -->
+  <nav>
+    <ul>
+      <li><a href="#what-is">What Is It?</a></li>
+      <li><a href="#faults">Fault Types</a></li>
+      <li><a href="#facts">More Facts</a></li>
+      <li><a href="#video">Video</a></li>
+      <li><a href="#data">Data</a></li>
+      <!-- ↓ Replace href with actual URL to your professional page -->
+      <li><a href="index.html">← Home</a></li>
+    </ul>
+  </nav>
+
+  <!-- banner: custom background color + on-page anchor target -->
+  <header id="top" class="banner">
+    <h1>Earthquakes</h1>
+    <p>Learning about the shaking of the Earth</p>
+  </header>
+
+  <!-- Section: What Is an Earthquake? -->
+  <div id="what-is" class="section">
+    <h2>What Is an Earthquake?</h2>
+    <p>
+      An earthquake is the shaking of the Earth's surface caused by a sudden
+      release of energy inside the Earth. The point where the energy is
+      released underground is called the hypocenter, and the point on the
+      surface right above it is called the epicenter.
+    </p>
+    <p>
+      Earthquakes happen mostly along faults, which are cracks in the
+      Earth's crust. They can be too small to feel, or strong enough to
+      destroy entire cities.
+    </p>
+  </div>
+
+  <!-- Section: Fault Types -->
+  <div id="faults" class="section alt">
+    <h2>Types of Faults</h2>
+    <p>There are three main types of faults that cause earthquakes:</p>
+
+    <!-- ordered list with nested unordered lists -->
+    <ol>
+      <li>
+        <strong>Normal Faults</strong>
+        <ul>
+          <li>Happen where the crust is being pulled apart.</li>
+          <li>Usually cause smaller earthquakes.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Reverse (Thrust) Faults</strong>
+        <ul>
+          <li>Happen where the crust is being pushed together.</li>
+          <li>Cause some of the most powerful earthquakes ever recorded.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Strike-Slip Faults</strong>
+        <ul>
+          <li>The two sides slide past each other sideways.</li>
+          <li>The San Andreas Fault in California is a famous example.</li>
+        </ul>
+      </li>
+    </ol>
+
+    <!-- image: Wikimedia Commons -->
+    <img src="images/Quake_epicenters_1963-98.png" alt="Map of global earthquake epicenters recorded between 1963 and 1998" />
+    <p><em>Earthquake locations from 1963–1998, tracing the edges of tectonic plates.</em></p>
+  </div>
+
+  <!-- Section: More Earthquake Facts -->
+  <div id="facts" class="section">
+    <h2>More Earthquake Facts</h2>
+    <p>
+      Earthquakes often come in sequences. An aftershock is a smaller
+      earthquake that follows a larger one, while a foreshock comes before
+      it. Sometimes a whole area gets a "swarm" of similar-sized quakes with
+      no single big one.
+    </p>
+    <p>
+      The largest earthquake ever recorded was a magnitude 9.5 in Chile in
+      1960. One of the deadliest was the 1556 Shaanxi earthquake in China,
+      which killed hundreds of thousands of people.
+    </p>
+
+    <!-- fault types diagram -->
+    <img src="images/Faults-types.jpg" alt="Diagram illustrating the three main fault types: normal, reverse thrust, and strike-slip" />
+    <p><em>The three main fault types responsible for most earthquakes.</em></p>
+  </div>
+
+  <!-- Section: YouTube video (works once hosted online) -->
+  <div id="video" class="section alt">
+    <h2>See It in Action</h2>
+    <p>Watch this video to learn how earthquakes happen.</p>
+    <iframe
+      width="560" height="315"
+      src="https://www.youtube.com/embed/jhRuUoTnA6g"
+      title="Earthquakes — Educational Video"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <!-- Section: live Tableau embed -->
+  <div id="data" class="section">
+    <h2>Earthquake Data: 1898–2019</h2>
+    <p>This interactive chart shows earthquake records from 1898 to 2019.</p>
+
+    <div class="tableauPlaceholder" id="viz1750021034541" style="position: relative;">
+      <noscript>
+        <a href="#">
+          <img
+            alt="Earthquakes Recorded 1898–2019"
+            src="https://public.tableau.com/static/images/Ea/EarthquakesRecordedbetween1898to2019/Earthquakes/1_rss.png"
+            style="border: none;"
+          />
+        </a>
+      </noscript>
+      <object class="tableauViz" style="display: none;">
+        <param name="host_url"              value="https%3A%2F%2Fpublic.tableau.com%2F" />
+        <param name="embed_code_version"    value="3" />
+        <param name="site_root"             value="" />
+        <param name="name"                  value="EarthquakesRecordedbetween1898to2019/Earthquakes" />
+        <param name="tabs"                  value="no" />
+        <param name="toolbar"               value="yes" />
+        <param name="animate_transition"    value="yes" />
+        <param name="display_static_image"  value="yes" />
+        <param name="display_spinner"       value="yes" />
+        <param name="display_overlay"       value="yes" />
+        <param name="display_count"         value="n" />
+        <param name="language"              value="en-US" />
+      </object>
+    </div>
+    <script type="text/javascript">
+      var divElement   = document.getElementById('viz1750021034541');
+      var vizElement   = divElement.getElementsByTagName('object')[0];
+      vizElement.style.width  = '100%';
+      vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+      var scriptElement = document.createElement('script');
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+  </div>
+
+  <!-- footer: nav back to professional pages + back-to-top anchor -->
+  <footer>
+    <a href="#top">↑ Back to Top</a>
+
+    <p>Site Navigation</p>
+    <ul>
+      <!--
+        Replace the href values below with your actual
+        professional page URLs before submitting.
+      -->
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <p>
+      Content summarized from
+      <a href="https://en.wikipedia.org/wiki/Earthquake" target="_blank" rel="noopener noreferrer">Wikipedia — Earthquake</a>.
+      Created for educational purposes.
+    </p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#81d4fa"/>
+      <stop offset="100%" stop-color="#e1f5fe"/>
+    </linearGradient>
+    <linearGradient id="sea2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0288d1"/>
+      <stop offset="100%" stop-color="#01579b"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#sky2)"/>
+  <circle cx="500" cy="90" r="38" fill="#fffde7" opacity="0.95"/>
+  <ellipse cx="150" cy="80" rx="55" ry="18" fill="#ffffff" opacity="0.8"/>
+  <ellipse cx="220" cy="95" rx="40" ry="14" fill="#ffffff" opacity="0.7"/>
+  <rect y="250" width="600" height="200" fill="url(#sea2)"/>
+  <path d="M0,250 Q60,235 120,250 T240,250 T360,250 T480,250 T600,250 V270 Q540,255 480,270 T360,270 T240,270 T120,270 T0,270 Z" fill="#4fc3f7" opacity="0.6"/>
+  <polygon points="0,260 90,150 190,260" fill="#37474f"/>
+  <polygon points="0,260 90,150 90,260" fill="#455a64"/>
+  <polygon points="460,260 540,170 600,230 600,260" fill="#37474f"/>
+  <path d="M30,255 Q90,170 150,255 Z" fill="#2e3b41" opacity="0.4"/>
+  <path d="M40,300 Q300,280 560,300 L560,450 L40,450 Z" fill="#0277bd" opacity="0.25"/>
+</svg>

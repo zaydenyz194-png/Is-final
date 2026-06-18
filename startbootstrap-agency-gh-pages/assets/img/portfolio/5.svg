@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="sky5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#90caf9"/>
+      <stop offset="100%" stop-color="#e3f2fd"/>
+    </linearGradient>
+    <linearGradient id="lake5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#64b5f6"/>
+      <stop offset="100%" stop-color="#90caf9"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#sky5)"/>
+  <circle cx="300" cy="120" r="40" fill="#fffde7" opacity="0.9"/>
+  <polygon points="100,260 220,110 340,260" fill="#5c6f95"/>
+  <polygon points="260,260 380,130 500,260" fill="#43547a"/>
+  <polygon points="120,250 220,130 320,250" fill="#e3e9f5" opacity="0.4"/>
+  <rect y="260" width="600" height="190" fill="url(#lake5)"/>
+  <polygon points="100,260 220,400 340,260" fill="#4a6088" opacity="0.5"/>
+  <polygon points="260,260 380,380 500,260" fill="#37425e" opacity="0.45"/>
+  <polygon points="40,300 70,250 100,300" fill="#1b5e20"/>
+  <polygon points="500,310 535,255 570,310" fill="#1b5e20"/>
+  <rect x="63" y="298" width="8" height="30" fill="#3e2723"/>
+  <rect x="528" y="308" width="8" height="30" fill="#3e2723"/>
+</svg>
